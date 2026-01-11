@@ -13,4 +13,11 @@ const oggetti = [
 
 //Avvio ciclo for 
 
-for (let i = 0; i < oggetti.length; i++) {
+for (let i = 0; i < oggetti.length; i++) { 
+    const pesominimo = 8;  //definita variabile con peso minimo
+    if (oggetti[i].peso === pesominimo) {
+        console.log("L'oggetto con il peso minimo è:", oggetti[i]);
+    }
+}
+
+//Ricerca per pescare bici con peso minimo senza definire variabile peso minimo
