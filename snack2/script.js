@@ -16,13 +16,12 @@ for (let i = 0; i < oggetti.length; i++) {
 }
 
 let risultato = []; 
-
 for (let i = 0; i < oggetti.length; i++) { 
     //risultato.push({oggetti[i].falliSubiti,oggetti[i].nome}); 
     // errore presente Missing initializer in const declaration
     const nome = oggetti[i].nome;
     const falliSubiti = oggetti[i].falliSubiti;
     risultato.push({nome, falliSubiti});
-    console.log(risultato);
 }
 
+console.log(risultato);
