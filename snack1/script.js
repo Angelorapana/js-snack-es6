@@ -15,7 +15,7 @@ const oggetti = [
 
 for (let i = 0; i < oggetti.length; i++) { 
     const pesominimo = 8;  //definita variabile con peso minimo
-    if (oggetti[i].peso === pesominimo) {
+    if (oggetti[i].nome === "bici" && oggetti[i].peso === pesominimo) {
         console.log("L'oggetto con il peso minimo è:", oggetti[i]);
     }
 }
