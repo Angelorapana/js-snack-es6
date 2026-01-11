@@ -10,3 +10,7 @@ const oggetti = [
     { nome: "moto", marca: "yamaha", },
     { nome: "moto", marca: "honda", },
 ];  
+
+//Avvio ciclo for 
+
+for (let i = 0; i < oggetti.length; i++) {
