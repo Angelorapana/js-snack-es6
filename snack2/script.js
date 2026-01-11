@@ -14,3 +14,5 @@ for (let i = 0; i < oggetti.length; i++) {
     oggetti[i].puntiFatti = Math.floor(Math.random() * 102); 
     oggetti[i].falliSubiti = Math.floor(Math.random() * 50); 
 }
+
+let risultato = []; 
