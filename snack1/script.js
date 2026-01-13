@@ -20,4 +20,29 @@ for (let i = 0; i < oggetti.length; i++) {
     }
 }
 
+
 //Ricerca per pescare bici con peso minimo senza definire variabile peso minimo
+
+
+//correzione: 
+//Preparo una variabile che contiene la bici piu leggera
+//CONTROLLO OGNI BICICLETTA dell'array SOVRASCIVENDO CON QUELLA PIU LEGGERA 
+//CON UN CICLO FOR PARTO DALL PRIMA E LE CONFRONTO
+//return  il risultato
+
+function biciLeggera() {
+    let biciLeggera = oggetti[0]; //assumo che la prima bici sia la piu leggera
+
+    for (let i = 1; i < oggetti.length; i++) {
+        if (oggetti[i].nome === "bici" && oggetti[i].peso < biciLeggera.peso) {
+            biciLeggera = oggetti[i]; //sovrascrivo la bici piu leggera
+        }
+    }
+
+    return biciLeggera;
+}
+
+console.log("La bici più leggera è:", biciLeggera());
+
+
+

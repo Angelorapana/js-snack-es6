@@ -25,3 +25,4 @@ for (let i = 0; i < oggetti.length; i++) {
 }
 
 console.log(risultato);
+
